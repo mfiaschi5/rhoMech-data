@@ -1,12 +1,12 @@
 {
  "provenance": {
   "kind": "pair_stats",
-  "schema_version": 15,
-  "code_git_hash": "4fc81431d517253f2ce43213ddc9253b49c482fc",
-  "spec_sha256": "d2f2404ac284125dab741df08070ca2e4e7564575b0a8c0a061a12bb220caf86",
+  "schema_version": 16,
+  "code_git_hash": "d17227292ff4372d52e62c3037e651a910908ff1",
+  "spec_sha256": "4d2aa237f8850e9702292a21ff9fd7a35a67afe9b7116bc15c6dcade2794d248",
   "inputs": {
    "file:data/processed/pmechdb/samples/index.json": "3819fa6630488ce7b3054a0b96d2dac76b89a2fdb5410026f07ac05e75e3e98a",
-   "file:data/processed/pmechdb/samples_molecule_train.json": "28be3a932814ec2fc409e4e650aa32eb9325a36ae5bdee41f287215b0c027d55"
+   "file:data/processed/pmechdb/samples_molecule_train.json": "f7fc984cf8766c24db98062e82ff4dcc92c42ef2f7f5240dc7718ac5a00a5a04"
   },
   "config": {
    "cells": "valid",
@@ -27,10 +27,10 @@
     "K": 1.75,
     "eps": 4.0
    },
-   "sample_version": 15
+   "sample_version": 16
   },
-  "built_at": "2026-10-25T17:01:52+00:00",
-  "content_sha256": "e36b6306a21ba2d8361bdaffcb546c172b3d632c60855097434cadce745dd3df",
+  "built_at": "2026-10-26T02:21:10+00:00",
+  "content_sha256": "955c8935b6c73b672a30790c8d72e6faca681237e47ce4a7c1707827b3cebcc9",
   "extra": {},
   "code_dirty": false,
   "code_diff_sha256": ""
@@ -57,8 +57,8 @@
    "count": 43950761
   },
   "bond_order": {
-   "mean": 0.14164758148328763,
-   "std": 0.42103292423725086,
+   "mean": 0.1415873549948316,
+   "std": 0.42083857008600667,
    "count": 43950761
   },
   "graph_distance": {

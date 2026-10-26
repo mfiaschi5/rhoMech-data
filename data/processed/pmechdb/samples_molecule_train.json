@@ -1,9 +1,9 @@
 {
  "provenance": {
   "kind": "samples",
-  "schema_version": 15,
-  "code_git_hash": "4fc81431d517253f2ce43213ddc9253b49c482fc",
-  "spec_sha256": "d2f2404ac284125dab741df08070ca2e4e7564575b0a8c0a061a12bb220caf86",
+  "schema_version": 16,
+  "code_git_hash": "d17227292ff4372d52e62c3037e651a910908ff1",
+  "spec_sha256": "4d2aa237f8850e9702292a21ff9fd7a35a67afe9b7116bc15c6dcade2794d248",
   "inputs": {
    "file:data/processed/pmechdb/samples/index.json": "3819fa6630488ce7b3054a0b96d2dac76b89a2fdb5410026f07ac05e75e3e98a",
    "file:data/processed/pmechdb/splits_molecule.json": "b3ba818dec37d1d3b4bcc6677d7681000f56e73adf93fe4cf4b993cc6467e8b2"
@@ -22,12 +22,12 @@
     "align_cos",
     "dihedral_cos"
    ],
-   "sample_version": 15,
+   "sample_version": 16,
    "seed": 0,
    "split": "molecule_train"
   },
-  "built_at": "2026-10-25T17:01:46+00:00",
-  "content_sha256": "28be3a932814ec2fc409e4e650aa32eb9325a36ae5bdee41f287215b0c027d55",
+  "built_at": "2026-10-26T02:21:03+00:00",
+  "content_sha256": "f7fc984cf8766c24db98062e82ff4dcc92c42ef2f7f5240dc7718ac5a00a5a04",
   "extra": {},
   "code_dirty": false,
   "code_diff_sha256": ""
@@ -10083,6 +10083,22 @@
   "anchor_kind": {
    "form": 9389,
    "break": 608
+  },
+  "drawings": {
+   "n_with_other_drawings": 3111,
+   "drawings_per_sample": {
+    "1": 6886,
+    "2": 1646,
+    "3": 506,
+    "4": 426,
+    "5": 106,
+    "6": 192,
+    "7": 10,
+    "8": 225
+   },
+   "dropped": {},
+   "n_other_drawings": 6955,
+   "n_anchors_changed": 4461
   },
   "orbital_reading": {
    "aligned": 9450,
