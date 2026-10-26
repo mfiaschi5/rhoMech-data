@@ -1,0 +1,77 @@
+{
+ "provenance": {
+  "kind": "train_run",
+  "schema_version": 1,
+  "code_git_hash": "7b090cb3aa23043a37ea83320b1e4639beb7feb9",
+  "spec_sha256": "13c206596fe513822a181caf3ca44a2a7dfff558c0fbdd417461d2e84ec5783b",
+  "inputs": {
+   "file:data/processed/pmechdb/pair_feature_stats_molecule.json": "e36b6306a21ba2d8361bdaffcb546c172b3d632c60855097434cadce745dd3df",
+   "file:data/processed/pmechdb/samples_molecule_train.json": "28be3a932814ec2fc409e4e650aa32eb9325a36ae5bdee41f287215b0c027d55",
+   "file:data/processed/pmechdb/samples_molecule_val.json": "c3131a60d80d397cb1b1dea45aaf4e76328237cb3786c2148f022f3961b9c8f9"
+  },
+  "config": {
+   "model": {
+    "K": 1.75,
+    "checkpoint": true,
+    "d": 256,
+    "d_pair": 64,
+    "decoder_hidden": 128,
+    "drop_pair_features": [],
+    "encoder": "flex",
+    "flex_kernel": true,
+    "fragments": 8,
+    "heads": 8,
+    "indexer_dim": 32,
+    "indexer_heads": 4,
+    "layers": 8,
+    "physics_hidden": 32,
+    "rbf": 32,
+    "rbf_max": 8.0,
+    "topk": 64
+   },
+   "sample_version": 15,
+   "train": {
+    "amp": "auto",
+    "cell_budget": 1100000,
+    "epochs": 30,
+    "grad_clip": 1.0,
+    "limit": 0,
+    "log_every": 20,
+    "lr": 0.0003,
+    "max_batch": 64,
+    "max_tokens": 1024,
+    "seed": 0,
+    "source": "pmechdb",
+    "split": "molecule",
+    "stop_weight": -1.0,
+    "warmup": 2000,
+    "weight_decay": 0.01,
+    "workers": 2
+   }
+  },
+  "built_at": "2026-10-26T00:21:49+00:00",
+  "content_sha256": "",
+  "extra": {
+   "parts": {
+    "train": {
+     "n": 9997,
+     "path": "data/processed/pmechdb/samples_molecule_train.json",
+     "skipped": {
+      "TOO_LARGE": 3
+     },
+     "used": 9994
+    },
+    "val": {
+     "n": 1239,
+     "path": "data/processed/pmechdb/samples_molecule_val.json",
+     "skipped": {},
+     "used": 1239
+    }
+   }
+  },
+  "code_dirty": false,
+  "code_diff_sha256": ""
+ },
+ "device": "cuda",
+ "amp": "torch.bfloat16"
+}
